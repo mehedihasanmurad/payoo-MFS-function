@@ -22,11 +22,31 @@
                 </div>
                 <!-- Available Balance Ends -->
                 <div class="divider w-80"></div>
-                <!-- features  -->
+                <!-- features Starts -->
+                <div class="w-56 mx-auto">
+                    <button id="" class="btn btn-lg text-sm">Add Money</button>
+                    <button class="btn btn-lg text-sm">Cash Out</button>
+                </div>
+                <!-- features Ends -->
+                <div class="divider"></div>
+                <!-- Add Money Starts -->
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="card-body">
+                        <fieldset class="fieldset">
+                            <label class="label ml-2 font-extrabold text-black">Amount</label>
+                            <input id="add-money-input" type="email" class="input rounded-full" placeholder="Enter Amount" />
+                            <label class="label ml-2 font-extrabold text-black">Pin Number</label>
+                            <input id="pin-number-input" type="password" class="input rounded-full" placeholder="Password" />
+                            <button id="add-money-btn" class="btn bg-blue-900 text-white rounded-full mt-4">Login</button>
+                        </fieldset>
+                    </div>
+                </div>
+                <!-- Add Money Ends -->
             </div>
         </div>
     </main>
 
+    <script src="js/utilities.js"></script>
     <script src="js/addMoney.js"></script>
 </body>
 </html>
